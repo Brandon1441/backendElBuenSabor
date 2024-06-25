@@ -1,0 +1,7 @@
+task debugJavaVersion {
+    doLast {
+        println "JAVA_HOME: " + System.getenv("JAVA_HOME")
+        println "java.home: " + System.getProperty("java.home")
+        println "Java version: " + System.getProperty("java.version")
+    }
+}
